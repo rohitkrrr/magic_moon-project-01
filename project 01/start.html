@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MAGIC MOON STUDIOS</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		
+
+		  <!-- Swiper CSS -->
+		  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+		  
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header>
+			<!-- Logo, positioned separately from the navbar -->
+			<a href="#home" class="logo">
+				<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\logo.png" alt="magic moon studios">
+			</a>
+		
+		
+			<!-- Navigation Menu -->
+			<ul class="navbar">
+				<li><a href="#home" class="home-active">HOME</a></li>
+				<li><a href="#new-release">NEW RELEASE</a></li>
+				<li><a href="#series">SERIES</a></li>
+				<li><a href="#videos">MOVIES</a></li>
+		
+				<!-- Dropdown Menu for Services -->
+				<li class="dropdown">
+					<a href="service" class="dropbtn">SERVICES</a>
+					<div class="dropdown-content">
+						<a href="#movie-production">MOVIE PRODUCTION</a>
+						<a href="#short-film">SHORT FILM</a>
+						<a href="#cinema-distribution">CINEMA DISTRIBUTION</a>
+		
+						<!-- Submenu for Cinema Marketing -->
+						<div class="dropdown-submenu">
+							<a href="javascript:void(0)">CINEMA MARKETING</a>
+							<div class="dropdown-subcontent">
+								<a href="#acting-class">Acting Class</a>
+								<a href="#dance-class">Dance Class</a>
+								<a href="#other-programs">Other Programs</a>
+							</div>
+						</div>
+		
+						<a href="#social-media-content-creation">SOCIAL MEDIA CONTENT CREATION</a>
+						<a href="#ads-marketing">ADS MARKETING</a>
+		
+						<!-- Submenu for Event Management -->
+						<div class="dropdown-submenu">
+							<a href="javascript:void(0)">EVENT MANAGEMENT</a>
+							<div class="dropdown-subcontent">
+								<a href="#stage-management">Stage Management</a>
+								<a href="#audio-management">Audio Management</a>
+								<a href="#other-management-programs">Other Management Programs</a>
+							</div>
+						</div>
+		
+						<a href="#film-academy">FILM ACADEMY</a>
+						<a href="#webseries">WEBSERIES</a>
+					</div>
+				</li>
+			</ul>
+		</header>
+		
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Swiper Container -->
+<ul><li><a href="#home"></a></li></ul>
+<div class="swiper-container" id="home">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="./img/home1.jpg" style="width:100%" height="770">
+      <div class="home-text">
+        <span>Marvel Universe</span>
+        <h1>Guardians of the Galaxy<br />Volume 2</h1>
+        <a href="#" class="btn">Book Now</a>
+        <a href="#" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/home2.png" style="width:100%" height="770">
+      <div class="home-text">
+        <span>Marvel Universe</span>
+        <h1>Thor: <br />Love and Thunder</h1>
+        <a href="#" class="btn">Book Now</a>
+        <a href="#" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/home3.jpg" style="width:100%" height="770">
+      <div class="home-text">
+        <span>Marvel Universe</span>
+        <h1>Spider-Man: <br />No Way Home</h1>
+        <a href="#" class="btn">Book Now</a>
+        <a href="#" class="play">
+          <i class="bx bx-play"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Swiper Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".swiper-container", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    effect: 'slide',  // smooth sliding effect
+  });
+</script>
+  
+
+<ul><li><a href="#new-release"></a></li></ul>
+
+<div class="movie-recommendations" id="new-release">
+    <h2 class="new">NEW RELEASE</h2>
+    <div class="movie-containers">
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m10.jpg" alt="Dark Horizon" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Dark Horizon</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m4.jpg" alt="Lost Memories" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Lost Memories</h3>
+                <p class="movie-rating">Rating: ★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\c9.png" alt="City Lights" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">City Lights</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\c5.jpg" alt="Echoes of Time" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Echoes of Time</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m3.jpg" alt="The Forgotten Path" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">The Forgotten Path</h3>
+                <p class="movie-rating">Rating: ★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m4.jpg" alt="Shadows in the Night" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Shadows in the Night</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\15 Most Iconic Movie Posters Of All Time.jpeg" alt="Iconic Journey" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Iconic Journey</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\30 Cleverly Illustrated Posters with Double Exposure Effects.jpeg" alt="Beyond the Frame" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Beyond the Frame</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\AAVESHAM RANGA WALLPAPER Fahadh Fasil wallpaper.jpeg" alt="Rising Stars" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Rising Stars</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Adventure has a name (Indiana Jones fanart poster).jpeg" alt="Indiana Jones: Adventure" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Indiana Jones: Adventure</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\American Psycho.jpeg" alt="American Psycho" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">American Psycho</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Bombay tamil movie 1995.jpeg" alt="Bombay" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Bombay</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\download (3).jpeg" alt="Endless Loop" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Endless Loop</h3>
+                <p class="movie-rating">Rating: ★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\download (4).jpeg" alt="Winds of Change" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Winds of Change</h3>
+                <p class="movie-rating">Rating: ★★★★☆</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Luffy wallpaper.jpeg" alt="Pirate King" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Pirate King</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+        <div class="movie-item">
+            <img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\oppenheimer poster.jpeg" alt="Oppenheimer" height="400px" width="auto">
+            <div class="movie-info">
+                <h3 class="movie-title">Oppenheimer</h3>
+                <p class="movie-rating">Rating: ★★★★★</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!----- SERIES GRID-->
+<ul><li><a href="#series"></a></li></ul>
+<div class="series-container" id="series">
+	<h2>Latest Web Series</h2>
+  
+	<div class="series-grid">
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\LA LA LAND.jpeg" alt="Series 1">
+		<div class="series-info">
+		  <h3>LA LA Land</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Fantastic Movie Posters by Phantom City Creative _ Inspiration Grid.jpeg" alt="Series 1">
+		<div class="series-info">
+		  <h3>The lord of ring</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\download.jpeg" alt="Series 1">
+		<div class="series-info">
+		  <h3>Joker</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\download (1).jpeg" alt="Series 1">
+		<div class="series-info">
+		  <h3>Bat-man</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+  	  
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Parasite - Retro Film Poster.jpeg" alt="Series 2">
+		<div class="series-info">
+		  <h3>Parasite</h3>
+		  <p>must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+  	  
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\Monkey Man Poster.jpeg" alt="Series 3">
+		<div class="series-info">
+		  <h3>Monkey man</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m7.jpg" alt="Series 3">
+		<div class="series-info">
+		  <h3>Uncharted</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m3.jpg" alt="Series 3">
+		<div class="series-info">
+		  <h3>Bat-man vs Superman</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\m6.jpg" alt="Series 3">
+		<div class="series-info">
+		  <h3>Black Panther</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+
+	  <div class="series-item">
+		<img src="C:\Users\Admin\OneDrive\Desktop\Aitch Nu\project 01\img\c7.jpg" alt="Series 3">
+		<div class="series-info">
+		  <h3>Transformer</h3>
+		  <p>Must watch</p>
+		  <a href="#" class="watch-now-btn">Watch Now</a>
+		</div>
+	  </div>
+	</div>
+  
+	<!-- View All Button -->
+	<div class="view-all-container">
+	  <button class="view-all-btn">View All</button>
+	</div>
+  </div>
+
+
+<!-- movies  -->
+<ul><li><a href="#videos"></a></li></ul>
+<section class="movies" id="videos">
+	<h2 class="heading">MOVIES</h2>
+	<!-- movies container  -->
+	<div class="movie-container">
+		<!-- box-1  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m1.jpg" alt="" />
+			</div>
+			<h3>Dr.Strange</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-2  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m2.jpg" alt="" />
+			</div>
+			<h3>Pathan</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-3  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m3.jpg" alt="" />
+			</div>
+			<h3>Batman vs Superman</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-4  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m4.jpg" alt="" />
+			</div>
+			<h3>John Wick 2</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-5  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m5.jpg" alt="" />
+			</div>
+			<h3>Aquaman</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-6  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m6.jpg" alt="" />
+			</div>
+			<h3>Black Panther</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-7  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m7.jpg" alt="" />
+			</div>
+			<h3>Uncharted</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-8  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m8.jpg" alt="" />
+			</div>
+			<h3>Brahmastra</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-9  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m9.jpg" alt="" />
+			</div>
+			<h3>Mortal-Engines</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-10  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m10.jpg" alt="" />
+			</div>
+			<h3>Mortal-Engines</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-11  -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m5.jpg" alt="" />
+			</div>
+			<h3>Aquaman</h3>
+			<span>120 min | Action</span>
+		</div>
+
+		<!-- box-12 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m6.jpg" alt="" />
+			</div>
+			<h3>Black Panther</h3>
+			<span>120 min | Thriller</span>
+		</div>
+
+		<!-- box-13 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m7.jpg" alt="" />
+			</div>
+			<h3>Uncharted</h3>
+			<span>120 min | Adventure</span>
+		</div>
+
+		<!-- box-14 -->
+		<div class="box">
+			<div class="box-img">
+				<img src="./img/m8.jpg" alt="" />
+			</div>
+			<h3>Brahmastra</h3>
+			<span>120 min | Action</span>
+		</div>
+	</div>
+</section>
+
+<ul><li><a href="#service"></a></li></ul>
+<section class="services" >
+    <h2>Our Services</h2>
+	<ul><li><a href="#movie-production"></a></li></ul>
+    <div class="services-grid">
+        <div class="service" id="movie-production">
+            <h3>Movie Production</h3>
+            <p>We specialize in producing high-quality feature films, from concept development to post-production. Our experienced team ensures that every project is completed with precision and creativity.</p>
+        </div>
+		<ul><li><a href="#short-film"></a></li></ul>
+        <div class="service", id="short-film">
+            <h3>Short Film Creation</h3>
+            <p>Got a story to tell in a shorter format? We excel in producing impactful short films, helping you convey powerful narratives in a limited runtime. Perfect for festivals, digital platforms, and personal projects.</p>
+        </div>
+
+        <div class="service">
+            <h3>Cinema Distribution</h3>
+            <p>We assist filmmakers in getting their work to the right audience by providing seamless cinema distribution services, ensuring your movie reaches theaters far and wide.</p>
+        </div>
+
+        <div class="service">
+            <h3>Cinema Marketing</h3>
+            <p>A great movie needs a great audience. Our cinema marketing services promote your film with tailored strategies to generate buzz, excitement, and ticket sales.</p>
+        </div>
+
+        <div class="service">
+            <h3>Social Media Creators</h3>
+            <p>Leverage the power of social media with our expert creators. We help craft engaging content that resonates with your audience, increasing your reach and brand impact.</p>
+        </div>
+
+        <div class="service">
+            <h3>Ad Marketing</h3>
+            <p>Boost your brand with compelling advertisements. From concept to execution, our team produces memorable ads that effectively communicate your message.</p>
+        </div>
+
+        <div class="service">
+            <h3>Event Management</h3>
+            <p>From film premieres to promotional events, our event management services make sure everything runs smoothly. We create unforgettable events that leave a lasting impression on your audience.</p>
+        </div>
+
+        <div class="service">
+            <h3>Film Academy</h3>
+            <p>Our Film Academy offers hands-on learning experiences:
+                <ul>
+                    <li>Acting Classes: Refine your acting skills and boost your confidence.</li>
+                    <li>Direction Classes: Learn the art of filmmaking from experienced directors.</li>
+                    <li>Short Film Making: Get introduced to the world of short film creation.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Web Series Creation</h3>
+            <p>Enter the world of digital entertainment with our web series creation services. We develop original, engaging web series that captivate audiences on major streaming platforms.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Magic Moon Studios</h4>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#my-profile">My Profile</a></li>
+                <li><a href="#pricing-plans">Pricing Plans</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Browse</h4>
+            <ul>
+                <li><a href="#latest-movies">Latest Movies</a></li>
+                <li><a href="#upcoming-movies">Upcoming Movies</a></li>
+                <li><a href="#latest-series">Latest Series</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul class="social-media">
+                <li><a href="#facebook"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#twitter"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="#instagram"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="#youtube"><i class='bx bxl-youtube'></i></a></li>
+            </ul>
+            <p>Email: saqibpasha0011@gmail.com</p>
+            <p>Phone: 6362160067</p>
+        </div>
+
+        <!-- Map Section -->
+        <div class="footer-section">
+            <h4>Find Us</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.5968168699587!2d77.617842474668!3d13.124708887204902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19a05fb6ba83%3A0x213e2c1c59bb9ad6!2sBrindavan%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1728235831034!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Magic Moon Studios | All Rights Reserved.</p>
+    </div>
+</footer>
+
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />  
+	</body>
+</html>
+
+
+
